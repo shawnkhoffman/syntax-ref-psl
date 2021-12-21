@@ -23,5 +23,5 @@ or collection.
                 'Operator', 'Description', 'Syntax', 'Alt Syntax'
                 ],
             tablefmt='simple'
-                )
+            )
         )

@@ -5,7 +5,7 @@ tabulate.PRESERVE_WHITESPACE = True
 def intro():
     print("\n")
     print("""Identity Operators are used to check if two values are located in the same memory
-space. Two variables that are equal do not imply that they are identical.    
+space. Two variables that are equal do not imply that they are identical.
     """)
     from tabulate import tabulate
     toc = [
