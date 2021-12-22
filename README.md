@@ -5,4 +5,4 @@ A simple Python CLI that helps you remember syntax from the Python Standard Libr
 ## How to use
 
 - Install dependencies from `requirements.txt`
-- Execute `program.py`
+- Execute `main.py`
