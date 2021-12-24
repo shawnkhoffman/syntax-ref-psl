@@ -185,7 +185,7 @@ while True:
                             selected_topic = main_topic_2
                             break
 
-                    if selected_topic == operator_topic_1:
+                    if selected_topic == operator_topic_2:
                         funcs.clear_screen()
                         operators_identity.intro()
                         answer = False
@@ -196,7 +196,7 @@ while True:
                             selected_topic = main_topic_2
                             break
 
-                    if selected_topic == 'Membership Operators':
+                    if selected_topic == operator_topic_3:
                         funcs.clear_screen()
                         operators_membership.intro()
                         answer = False
@@ -207,7 +207,7 @@ while True:
                             selected_topic = main_topic_2
                             break
 
-                    if selected_topic == 'Ternary Operators':
+                    if selected_topic == operator_topic_4:
                         funcs.clear_screen()
                         operators_ternary.intro()
                         answer = False
@@ -218,7 +218,7 @@ while True:
                             selected_topic = main_topic_2
                             break
 
-                    if selected_topic == 'Division Operators':
+                    if selected_topic == operator_topic_5:
                         funcs.clear_screen()
                         operators_division.intro()
                         answer = False
@@ -229,7 +229,7 @@ while True:
                             selected_topic = main_topic_2
                             break
 
-                    if selected_topic == 'Operator Overloading':
+                    if selected_topic == operator_topic_6:
                         funcs.clear_screen()
                         operator_overloading.intro()
                         answer = False
@@ -240,7 +240,7 @@ while True:
                             selected_topic = main_topic_2
                             break
 
-                    if selected_topic == 'Any/All Operators':
+                    if selected_topic == operator_topic_7:
                         funcs.clear_screen()
                         operators_any_all.intro()
                         answer = False
@@ -251,7 +251,7 @@ while True:
                             selected_topic = main_topic_2
                             break
 
-                    if selected_topic == 'Operator Functions':
+                    if selected_topic == operator_topic_8:
                         funcs.clear_screen()
                         operator_functions.intro()
                         answer = False
