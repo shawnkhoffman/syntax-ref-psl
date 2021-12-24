@@ -4,8 +4,9 @@ tabulate.PRESERVE_WHITESPACE = True
 
 def intro():
     print("\n")
-    print("""Assignment Operators are special symbols that are used to carry out arithmetic, logical,
-or bitwise computations. The value that the operator operates on is known as the 'Operand'.
+    print("""Assignment Operators are special symbols that are used to carry
+out arithmetic, logical, or bitwise computations. The value that the operator
+operates on is known as the 'Operand'.
 
 """)
     from tabulate import tabulate
@@ -30,10 +31,12 @@ and then assign to left operand.""", 'a /= b', 'a = a * b'],
 operands and assign the result to left operand.""", 'a %= b', 'a = a % b'],
         [' ', ' ', ' ', ' '],
         ['    //=', """Divide(floor) AND: Divide left operand with right
-operand and then assign the value to left operand.""", 'a //= b', 'a = a // b'],
+operand and then assign the value to left operand.""",
+            'a //= b', 'a = a // b'],
         [' ', ' ', ' ', ' '],
         ['    **=', """Exponent AND: Calculate exponent (raise power)
-value using operands and assign value to left operand.  """, 'a **= b', 'a = a ** b'],
+value using operands and assign value to left operand.  """,
+            'a **= b', 'a = a ** b'],
         [' ', ' ', ' ', ' '],
         ['    &=', """Performs Bitwise AND on operands and assign value
 to left operand.""", 'a &= b', 'a = a & b'],

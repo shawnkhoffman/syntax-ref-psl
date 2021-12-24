@@ -5,13 +5,18 @@ from os import system, name
 
 def about_program():
     """
-Syntax Reference CLI for the
-Python Standard Library
+Syntax Reference CLI for
+the Python Standard Library
 Author: Shawn Hoffman
 https://obishawnkenobi.dev
 
-Use 'quit' to exit at any time.
---------------------------------
+
+Use 'quit' to leave the
+program at any time.
+
+Use 'back' to return
+from any menu.
+---------------------------
     """
     print(about_program.__doc__)
 
@@ -35,6 +40,8 @@ def topic_selection(topics):
     if re.search('[Qq][Uu][Ii][Tt]', topic_input.selection()):
         print("Quitting program...", end='\n\n')
         exit()
+    elif re.search('[Bb][Aa][Cc][Kk]', topic_input.selection()):
+        return 'back'
     else:
         ts = topic_input.selection()
         tc = topic_input.choice()
@@ -62,3 +69,5 @@ def goback():
         exit()
     elif re.search('[Yy]', answer):
         return True
+    else:
+        return False

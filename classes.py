@@ -20,5 +20,8 @@ class selection(topic):
             if self.option == self.k or self.option == self.v:
                 self.chosen_topic = self.v
                 return self.chosen_topic
+            elif self.option == 'back':
+                self.chosen_topic = self.option
+                return self.chosen_topic
             else:
                 continue

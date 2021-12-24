@@ -4,18 +4,19 @@ tabulate.PRESERVE_WHITESPACE = True
 
 def intro():
     print("\n")
-    print("""Operator Overloading gives operators extended meaning beyond their predefined operational
-meaning.
+    print("""Operator Overloading gives operators extended meaning beyond their
+predefined operational meaning.
 
-To do operator overloading, you define a 'magic/dunder' method for a class using a
-pre-defined operator. You can overload all existing operators but you cannot create a new
-operator.
+To do operator overloading, you define a 'magic/dunder' method for a class
+using a pre-defined operator. You can overload all existing operators but you
+cannot create a new operator.
 
-A magic/dunder method is one that is automatically invoked when it is associated with a
-particular operator. For example, when you use the '+' operator, the magic method '__add__'
-is automatically invoked because it is what is defined for the operation for '+'.
-To change that behavior, you define a new magic/dunder method for it in the class that is
-associated with that operation.
+A magic/dunder method is one that is automatically invoked when it is
+associated with a particular operator. For example, when you use the '+'
+operator, the magic method '__add__' is automatically invoked because it is
+what is defined for the operation for '+'. To change that behavior, you define
+a new magic/dunder method for it in the class that is associated with that
+operation.
 
 """)
 

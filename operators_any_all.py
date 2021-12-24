@@ -4,7 +4,8 @@ tabulate.PRESERVE_WHITESPACE = True
 
 def intro():
     print("\n")
-    print("""'Any' and 'All' are two built-in functions to identify successive And/Or in an iterable.
+    print("""'Any' and 'All' are two built-in functions to identify successive
+And/Or in an iterable.
     """)
     from tabulate import tabulate
     toc = [
@@ -12,7 +13,8 @@ def intro():
 and returns False if the iterable is empty
 or if all are False.""", 'any([False, False, False])'],
         [' ', ' ', ' '],
-        [' ', """Returns True because one of the items are True.  """, 'any([False, True, False])'],
+        [' ', """Returns True because one of the items are True.  """,
+            'any([False, True, False])'],
         [' ', ' ', ' '],
         [' ', """Using any() on a list:
 
@@ -33,9 +35,11 @@ or if all are False.""", 'any([False, False, False])'],
 False if there is a single False value or
 if all are False.""", 'all([True, True, True])'],
         [' ', ' ', ' '],
-        [' ', """Returns False because one of the items is False.  """, 'all([False, True, True])'],
+        [' ', """Returns False because one of the items is False.  """,
+            'all([False, True, True])'],
         [' ', ' ', ' '],
-        [' ', """Returns False because all of the items are not True.""", 'all([False, False, False])'],
+        [' ', """Returns False because all of the items are not True.""",
+            'all([False, False, False])'],
         [' ', ' ', ' '],
         [' ', """Using all() on a list:
 

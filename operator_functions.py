@@ -4,8 +4,9 @@ tabulate.PRESERVE_WHITESPACE = True
 
 def intro():
     print("\n")
-    print("""Operator Functions are a part of the "operator" module in the Python Standard Library that
-contains predefined functions for many mathematical, logical, relational, bitwise, etc.
+    print("""Operator Functions are a part of the "operator" module in the
+Python Standard Library that contains predefined functions for many
+mathematical, logical, relational, bitwise, etc.
 
 NOTE: You must first import the operator module to access Operator Functions.
 
@@ -38,26 +39,33 @@ remainder of a / b."""],
         [' ', ' ', ' '],
         [' ne(a, b)', """Returns True if a != b; else return False."""],
         [' ', ' ', ' '],
-        [' setitem(obj, pos, val)', """Assigns the value ('val') to a specific position
+        [' setitem(obj, pos, val)',
+            """Assigns the value ('val') to a specific position
 ('pos') in a list or dict object ('obj')."""],
         [' ', ' ', ' '],
-        [' setitem(obj, slice(a, b), vals)  ', """Assigns a set of values ('vals') at a given slice
+        [' setitem(obj, slice(a, b), vals)  ',
+            """Assigns a set of values ('vals') at a given slice
 in a list object ('obj')."""],
         [' ', ' ', ' '],
         [' ', ' ', ' '],
-        [' delitem(obj, pos)', """Deletes the value ('val') at a particular position
+        [' delitem(obj, pos)',
+            """Deletes the value ('val') at a particular position
 ('pos') in a list or dict object ('obj')."""],
         [' ', ' ', ' '],
-        [' delitem(obj, slice(a, b))', """Deletes a set of values ('vals') at a given slice
+        [' delitem(obj, slice(a, b))',
+            """Deletes a set of values ('vals') at a given slice
 in a list object ('obj')."""],
         [' ', ' ', ' '],
-        [' getitem(obj, pos)', """Gets the value at a particular position ('pos') in
+        [' getitem(obj, pos)',
+            """Gets the value at a particular position ('pos') in
 a list or dict object ('obj')."""],
         [' ', ' ', ' '],
-        [' getitem(obj, slice(a, b))', """Gets the value at a given slice in a list object
+        [' getitem(obj, slice(a, b))',
+            """Gets the value at a given slice in a list object
 ('obj')."""],
         [' ', ' ', ' '],
-        [' concat(obj1, obj2)', """Concatenates two collection objects ('obj1' + 'obj2'),
+        [' concat(obj1, obj2)',
+            """Concatenates two collection objects ('obj1' + 'obj2'),
 such as strings, lists, list items, tuples, tuple items,
 and dictionary items. Can do slice operations using
 concat(obj1[a:b], obj2[a:b]).

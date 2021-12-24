@@ -1,8 +1,9 @@
 def intro():
     print("\n")
-    print("""Also known as conditional expressions, these are operators that evaluate something based
-on a condition being True or False. Most useful when a full if/then/else statement is too
-verbose for the sake of setting a single variable based on a condition.
+    print("""Also known as conditional expressions, these are operators that
+evaluate something based on a condition being True or False. Most useful when
+a full if/then/else statement is too verbose for the sake of setting a single
+variable based on a condition.
 
 NOTE: Ternary operators have the lowest priority amongst all Python operations.
 
@@ -15,7 +16,8 @@ NOTE: Ternary operators have the lowest priority amongst all Python operations.
         ["""Standard Syntax:
 Returns the value of 'a' as the value of 'v'
 if (a < b).
-Else, returns the value of 'b' as the value of 'v'.""", 'v = a if a < b else b'],
+Else, returns the value of 'b' as the value of 'v'.""",
+            'v = a if a < b else b'],
         [' ', ' '],
         [' ', ' '],
         ["""Syntax with Tuples:
@@ -31,7 +33,8 @@ case 'b') will be assigned to 't'.""", 't = (b, a)[a < b]'],
 Returns the value associated with the True key in
 the dictionary if [a < b] is true.
 Else, returns the value associated with the False
-key in the dictionary if [a < b] is false.""", 'd = {True: a, False: b}[a < b]'],
+key in the dictionary if [a < b] is false.""",
+            'd = {True: a, False: b}[a < b]'],
         [' ', ' '],
         [' ', ' '],
         ["""Syntax with Lambda functions:
