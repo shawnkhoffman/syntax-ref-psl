@@ -11,10 +11,10 @@ variable) is in a sequence or collection.
     )
     from tabulate import tabulate
     toc = [
-        ['    in', 'Returns True if value is found in the sequence',
+        ['    in', 'Returns True if value is found in the sequence.',
             'x in list'],
         [' ', ' ', ' ', ' '],
-        ['  not in', 'Returns True if value is not found in the sequence',
+        ['  not in', 'Returns True if value is not found in the sequence.',
             'y not in list']
     ]
 

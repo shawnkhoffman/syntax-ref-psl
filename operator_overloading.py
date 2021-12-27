@@ -14,7 +14,7 @@ cannot create a new operator.
 A magic/dunder method is one that is automatically invoked when it is
 associated with a particular operator. For example, when you use the '+'
 operator, the magic method '__add__' is automatically invoked because it is
-what is defined for the operation for '+'. To change that behavior, you define
+what is defined to the operation for '+'. To change that behavior, you define
 a new magic/dunder method for it in the class that is associated with that
 operation.
 

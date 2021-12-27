@@ -38,11 +38,25 @@ while True:
     strings_topics = {
         '1': 'Accessing Characters',
         '2': 'String Slicing',
-        '3': 'Deleting/Updating from a String'
+        '3': 'Deleting/Updating from a String',
+        '4': 'Escape Sequencing',
+        '5': 'String Formatting with format()',
+        '6': 'String Formatting with %',
+        '7': 'Logical Operations',
+        '8': 'Making String Templates',
+        '9': 'Splitting Strings',
+        '10': 'Docstrings'
     }
     string_topic_1 = strings_topics['1']
     string_topic_2 = strings_topics['2']
     string_topic_3 = strings_topics['3']
+    string_topic_4 = strings_topics['4']
+    string_topic_5 = strings_topics['5']
+    string_topic_6 = strings_topics['6']
+    string_topic_7 = strings_topics['7']
+    string_topic_8 = strings_topics['8']
+    string_topic_9 = strings_topics['9']
+    string_topic_10 = strings_topics['10']
 
     operator_topics = {
         '1': 'Assignment Operators',
@@ -127,6 +141,55 @@ while True:
                             if selected_sub_topic == string_topic_3:
                                 funcs.clear_screen()
                                 datatypes_strings.deleting_updating_string()
+                                answer = False
+                                while answer is not True:
+                                    answer = funcs.goback()
+
+                            if selected_sub_topic == string_topic_4:
+                                funcs.clear_screen()
+                                datatypes_strings.escape_characters()
+                                answer = False
+                                while answer is not True:
+                                    answer = funcs.goback()
+
+                            if selected_sub_topic == string_topic_5:
+                                funcs.clear_screen()
+                                datatypes_strings.string_formatting_method()
+                                answer = False
+                                while answer is not True:
+                                    answer = funcs.goback()
+
+                            if selected_sub_topic == string_topic_6:
+                                funcs.clear_screen()
+                                datatypes_strings.string_formatting_mod()
+                                answer = False
+                                while answer is not True:
+                                    answer = funcs.goback()
+
+                            if selected_sub_topic == string_topic_7:
+                                funcs.clear_screen()
+                                datatypes_strings.logical_operations()
+                                answer = False
+                                while answer is not True:
+                                    answer = funcs.goback()
+
+                            if selected_sub_topic == string_topic_8:
+                                funcs.clear_screen()
+                                datatypes_strings.template_class()
+                                answer = False
+                                while answer is not True:
+                                    answer = funcs.goback()
+
+                            if selected_sub_topic == string_topic_9:
+                                funcs.clear_screen()
+                                datatypes_strings.splitting_strings()
+                                answer = False
+                                while answer is not True:
+                                    answer = funcs.goback()
+
+                            if selected_sub_topic == string_topic_10:
+                                funcs.clear_screen()
+                                datatypes_strings.doc_strings()
                                 answer = False
                                 while answer is not True:
                                     answer = funcs.goback()

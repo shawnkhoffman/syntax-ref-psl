@@ -2,7 +2,7 @@ def intro():
     print("\n")
     print("""Also known as conditional expressions, these are operators that
 evaluate something based on a condition being True or False. Most useful when
-a full if/then/else statement is too verbose for the sake of setting a single
+a full if/else statement is too verbose for the sake of setting a single
 variable based on a condition.
 
 NOTE: Ternary operators have the lowest priority amongst all Python operations.
@@ -22,7 +22,7 @@ Else, returns the value of 'b' as the value of 'v'.""",
         [' ', ' '],
         ["""Syntax with Tuples:
 If [a < b] is true, return 1; so the element with
-the index of 1 in the tuple  (in this case 'a')
+the index of 1 in the tuple (in this case 'a')
 will be assigned to 't'.
 Else, if [a < b] is false, return 0; so the
 element with the index of 0 in the tuple (in this

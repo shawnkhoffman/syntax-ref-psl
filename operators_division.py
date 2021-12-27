@@ -8,12 +8,15 @@ def intro():
     """)
     from tabulate import tabulate
     toc = [
+        ['   /', """The operator used for true division.""", '5/2 = 2.5'],
+        [' ', ' ', ' '],
         [
             '  //', """Floor division for int and float arguments used to
-return the closest integer value which is less than or equal to a specified
-expression or value. You know that 5/2 is 2.5, the closest integer which is
-less than or equal is 2[5//2].""",
-            '5//2'
+return the closest integer value that is less than
+or equal to a specified expression or value. You know
+that 5/2 is 2.5, so the closest integer that is less
+than or equal to that is 2.""",
+            '5//2 = 2'
         ]
     ]
 
@@ -21,7 +24,7 @@ less than or equal is 2[5//2].""",
         tabulate(
             toc,
             headers=[
-                'Operator', 'Description', 'Syntax', 'Alt Syntax'
+                'Operator', 'Description', 'Syntax'
                 ],
             tablefmt='simple'
             )
